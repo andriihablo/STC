@@ -1,0 +1,2 @@
+const conf=[
+id : name]
