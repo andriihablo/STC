@@ -41,10 +41,10 @@ ul {
 footer {
 	background: ;
 	width: 100%;
-	height:10px;
+	height:50px;
 	left: 0;
 	position: absolute;
-	margin-top: 25%;
+	margin-top: 55%;
 	text-align: center;
 	color: #070707
 
@@ -144,9 +144,11 @@ footer {
 }
 
 #main {
-	position: relative;
+	position: absolute;
+	top: 275px;
+	left: 1%;
 	padding: 0;
-	width: 1180px;
+	width: 336px;
 	color: #5e5e5e;
 }
 
@@ -168,7 +170,7 @@ footer {
 
 #main ul li {
 	padding: 15px 0 15px 0;
-	border-top: dotted 1px #b3b3b3;
+
 }
 
 #main ul li.first {
@@ -395,5 +397,14 @@ input:required, textarea:required {
 .contact_form input:required:valid, .contact_form textarea:required:valid,
 .restore_pass input:required:valid, .restore_pass textarea:required:valid{
     background: #fff no-repeat 98% center;    border-bottom-color: #28921f;
+}
+
+.contact_form{
+	position: absolute;
+	top: -65px;
+	left: 145%;
+	border: 1px solid rgba(54, 38, 55, 0.62);
+	width: 371px;
+	border-radius: 17px;
 }
 
