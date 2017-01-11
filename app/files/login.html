@@ -1,58 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	  <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Coffee</title>
-    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-</head>
+<form class="login_form" action="" method="post" name="login_form">
 
-<body>
+	<label>Логин:</label><input type="text" id="UserName"  placeholder="email@example.com" required>
+	<label>Пароль:</label><input type="password" id="UserPassword" placeholder="Ваш пароль" required>
+	<input type="submit" value="Войти" onclick="userSessionStorageRead()">
 
-	<header>
+	<a onclick = "$('#main').load('files/restore_password.html');">Забыли пароль</a>
 
-		<div id="header">
-		<div id="logo">
-			<h1>
-				<a href="index.html">Coffee</a>
-			</h1>
-		</div>
-		<div id="nav">
-			<ul>
-				<li class="first active">
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="register.html">Register</a>
-				</li>	
-				
-			</ul>
-			
-		</div>					
+</form>
 
 
-	</header>
-	
-	<form class="login_form" action="" method="post" name="login_form">
-	    <label for="username">Логин:</label><input type="text" name="username"  placeholder="admin@example.com">
-	    <label for="password">Пароль:</label><input type="password" name="password" placeholder="Пароль...">
-	    <input type="submit" value="Войти">
-	</form>
-	<form>
-	    <a href="restore_password.html" target="_blank">
-	        <button class="forgot_pass" type="button">Забыли пароль?</button>
-	    </a>
-	</form>
-
-	<footer>
-	<p>Тел: (000) 000 00 00<br></p>
-	<p>www.Cofee.com.ua &#169; 2016<br></p>
-	</footer>
-
-	<script  type="text/javascript" src="valid.js"></script>
-
-</body>
-</html>
